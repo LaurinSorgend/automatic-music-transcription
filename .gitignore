@@ -1,0 +1,27 @@
+# Python clutter
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Large data files - too big for GitHub
+data/
+preprocessed/
+checkpoints*/
+
+# Model weights
+*.pth
+*.ckpt
+*.h5
+
+# NumPy/NPZ files (your preprocessed features)
+*.npz
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+Thumbs.db
